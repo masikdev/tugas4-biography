@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;
+    /* Agar scroll tidak ada dan tidak bisa di scroll */
+}
+
+.banner-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.30), rgba(0,0,0,0.60)) ,url(assets/geometry\ abstract.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-2 {
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.30), rgba(0,0,0,0.60)), url(assets/geometry\ abstract\ \ flip.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.10);
+    /* background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)); */
+    
+} 
+
+ .navbar {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    line-height: 45px;
+    padding: 20px 0px;
+    align-items: center;
+}
+ 
+.logo a {
+    width: 50px;
+    top: 0;
+    color: #e03157;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0px 15px;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    color: rgba(233, 233, 233, 0.877);
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+}
+
+.menu-kiri {
+    margin-left: 10px;
+}
+
+.menu-kiri ul li a:hover {
+    color: white;
+}
+
+.menu-kanan {
+    line-height: 10px;
+}
+
+.menu-kanan ul li {
+    margin: 0px 12px;
+}
+
+.menu-kanan ul li a {
+    opacity: 0.877;
+}
+
+.menu-kanan ul li a:hover {
+    opacity: 1;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+section {
+    width: 1200px;
+    display: flex;
+}
+
+.img-profile {
+    width: 600px;
+    border: 2px solid rgb(182, 181, 181);
+    border-radius: 10px;
+}
+
+#home {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    justify-content: space-between
+}
+
+
+h3 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #e9d4b5;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Open sans', sans-serif;
+    text-shadow: 2px 5px 8px rgba(7, 7, 7, 0.856);
+}
+
+h4 {
+    margin-bottom: 15px;
+    color: #FFC300;
+}
+
+
+p {
+    color: white;
+    line-height: 25px;
+}
+
+.content-lay1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.content-lay2 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+   margin-top: 50px;
+   color: white;
+   font-size: 40px;
+   font-family: 'Oswald';
+   letter-spacing: 2px;
+   text-shadow: 2px 5px 8px rgba(7, 7, 7, 0.856);
+}
+
+
+h5::after {
+    content: '';
+    height: 3px;
+    width: 435px;
+    background: #FFC300;
+    position: absolute;
+    left: 46.2rem;
+    margin-top: 60px;
+}
+
+.txt {
+    position: absolute;
+    margin-top: 23rem;
+    width: 435px;
+    margin-left: 24.5rem;
+    text-shadow: 2px 5px 8px rgba(7, 7, 7, 0.856);
+    text-align: justify;
+}
+
+h2 {
+    letter-spacing: 2px;
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family: 'Open sans', sans-serif;
+    color: #e9d4b5;
+    font-weight: 800;
+    text-shadow: 2px 5px 8px rgba(7, 7, 7, 0.856);
+}
+
+table {
+    border-color: rgba(255, 255, 255, 0.432);
+    color: white;
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+    background-color: rgba(44, 44, 44, 0.11);
+}
+
+thead {
+    background-color: #d82149ce;
+}
+
+td {
+    padding: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.centre {
+    text-align: center;
+}
+
+.tabel-pendidikan {
+    width: 30%;
+    background-color: transparent;
+}
+
+.tabel-pendidikan tr .jenjang {
+    color: white;
+    width: 110px;
+    font-size: 55px;
+    line-height: 85px;
+    font-family: 'Oswald';
+    font-weight: 800;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.637);
+}
+
+.tabel-pendidikan tr td {
+    color: white;
+    font-weight: bold;
+    font-family: 'Open sans', sans-serif;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.637);
+    font-size: 18px;
+}
